@@ -50,7 +50,7 @@
                 </v-card>
             </v-col>
             <v-col cols="12" md="2" class="p-2">
-                <v-card class="chart-card border-radius">
+                <v-card class="chart-card border-radius p-2">
                     <PieChart />
                 </v-card>
             </v-col>

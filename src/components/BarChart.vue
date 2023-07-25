@@ -1,5 +1,5 @@
 <template>
-  <Bar :data="chartData" :options="chartOptions" class="font-family-poppins"/>
+  <Bar :data="chartData" :options="chartOptions" class="font-family-poppins" />
 </template>
 
 <script>
@@ -36,6 +36,11 @@ export default {
               display: false,
             }
           },
+        },
+        plugins: {
+          legend: {
+            display: false,
+          }
         }
       }
     }
@@ -79,7 +84,7 @@ export default {
 </script>
 
 <style>
-.font-family-poppins{
+.font-family-poppins {
   font-family: Poppins, serif;
 }
 </style>
